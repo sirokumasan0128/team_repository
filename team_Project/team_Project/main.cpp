@@ -39,6 +39,8 @@ int WinMain(
 		return -1;
 	}
 
+	int a = 0;
+
 	//永久ループを抜ける処理
 	while (1)//簡単なループ処理
 	{
