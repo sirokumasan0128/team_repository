@@ -1,7 +1,8 @@
+#include "DxLib.h"
+
 int main()
 {
-<<<<<<< HEAD
-=======
+
 	const char TITLE[] = "01_step";
 
 	const int WinHeight = 400;
@@ -39,6 +40,8 @@ int main()
 
 		int a = 5;
 
+		int b = 10;
+
 		WaitTimer(20);//20ミリ秒
 		if (ProcessMessage() == -1) break;//WindowsAPIのエラー処理
 		if (CheckHitKey(KEY_INPUT_ESCAPE) == 1)break;//DxLibの入力処理
@@ -49,6 +52,6 @@ int main()
 
 	//Dxライブラリ終了処理
 	DxLib_End();
->>>>>>> origin/master
+
 
 }
