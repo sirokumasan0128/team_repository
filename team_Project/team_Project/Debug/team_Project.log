@@ -1,3 +1,0 @@
-﻿  main.cpp
-c:\k019g1062\ゲーム制作\チーム制作\team_project\team_project\main.cpp(10): warning C4007: 'WinMain': '__stdcall' でなければなりません。
-  team_Project.vcxproj -> C:\k019g1062\ゲーム制作\チーム制作\team_Project\Debug\team_Project.exe
