@@ -39,13 +39,11 @@ int WinMain(
 		return -1;
 	}
 
-	int a = 0;
-
 	//永久ループを抜ける処理
 	while (1)//簡単なループ処理
 	{
 
-
+		int a = 5;
 
 		WaitTimer(20);//20ミリ秒
 		if (ProcessMessage() == -1) break;//WindowsAPIのエラー処理
