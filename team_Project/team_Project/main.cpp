@@ -45,6 +45,8 @@ int WinMain(
 
 		int a = 5;
 
+		float b = 5.5f;
+
 		WaitTimer(20);//20ƒ~ƒŠ•b
 		if (ProcessMessage() == -1) break;//WindowsAPI‚ÌƒGƒ‰[ˆ—
 		if (CheckHitKey(KEY_INPUT_ESCAPE) == 1)break;//DxLib‚Ì“ü—Íˆ—
